@@ -43,8 +43,7 @@ body {
 input [type= text],
 input [type= email],
 input [type= tel] {
-  color: red;
-
+  background-color: grey;
 }
 
 .last-sentece {
