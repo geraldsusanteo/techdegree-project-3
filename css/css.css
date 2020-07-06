@@ -13,6 +13,7 @@
 body {
   display: flex;
   flex-direction: column;
+  
 }
 
 .first-border {
@@ -22,10 +23,13 @@ body {
   margin-bottom: -5px;
 }
 
-.first-border-dif-style {
+.second-third-border {
   height: 2px;
   background: black;
+}
 
+.second-border {
+  margin-top: 25px;
 }
 
 .intro-text {
@@ -37,4 +41,9 @@ input [type= email],
 input [type= tel] {
   color: red;
 
+}
+
+.last-sentece {
+  color: grey;
+  text-align: center;
 }
