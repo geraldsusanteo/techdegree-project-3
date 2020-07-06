@@ -1,0 +1,40 @@
+.title {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 25px 10px 25px 10px;
+}
+
+.introduction {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-border {
+  border: none;
+  height: 5px;
+  background: black;
+  margin-bottom: -5px;
+}
+
+.first-border-dif-style {
+  height: 2px;
+  background: black;
+
+}
+
+.intro-text {
+  margin-bottom: 40px;
+}
+
+input [type= text],
+input [type= email],
+input [type= tel] {
+  color: red;
+
+}
