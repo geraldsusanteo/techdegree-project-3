@@ -20,12 +20,18 @@
 body {
   /* display: flex;
   flex-direction: column; */
-  width: 90%;
-  margin: auto;
+  width: 80%;
+
 }
 
 .wrapper {
-  width: 90%;
+  margin: auto;
+  width: 80%;
+}
+
+form {
+
+
 }
 
 /* Line break borders */
@@ -51,7 +57,8 @@ input[type= text],
 input[type= email],
 input[type= tel],
 input[type= checkbox],
-input[type= radio] {
+input[type= radio],
+select {
   background-color: #E8E8E8;
   border: none;
   border-radius: 5%;
@@ -66,6 +73,11 @@ button {
   width: 50%;
   display:block;
   margin: auto;
+}
+
+.bottom-form {
+
+
 }
 
 /* Bottom page (footer) */
