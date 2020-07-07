@@ -11,9 +11,10 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-
+  /* display: flex;
+  flex-direction: column; */
+  width: 90%;
+  margin: auto;
 }
 
 .wrapper {
@@ -47,6 +48,8 @@ input[type= tel],
 input[type= checkbox],
 input[type= radio] {
   background-color: #E8E8E8;
+  border: none;
+  border-radius: 5%;
 }
 
 .last-sentece {
