@@ -21,18 +21,10 @@ body {
   /* display: flex;
   flex-direction: column; */
   width: 80%;
-
-}
-
-.wrapper {
   margin: auto;
-  width: 80%;
-}
-
-form {
-
 
 }
+
 
 /* Line break borders */
 
@@ -75,10 +67,6 @@ button {
   margin: auto;
 }
 
-.bottom-form {
-
-
-}
 
 /* Bottom page (footer) */
 .last-sentece {
