@@ -1,3 +1,4 @@
+/* Top section (Introduction) */
 .title {
   background-color: #000000;
   color: white;
@@ -9,6 +10,12 @@
   text-align: center;
   flex-wrap: wrap;
 }
+.intro-text {
+  margin-bottom: 40px;
+  color: grey;
+}
+
+/* basic styles */
 
 body {
   /* display: flex;
@@ -20,6 +27,8 @@ body {
 .wrapper {
   width: 90%;
 }
+
+/* Line break borders */
 
 .first-border {
   border: none;
@@ -37,11 +46,7 @@ body {
   margin-top: 25px;
 }
 
-.intro-text {
-  margin-bottom: 40px;
-  color: grey;
-}
-
+/* Inside Form */
 input[type= text],
 input[type= email],
 input[type= tel],
@@ -50,11 +55,6 @@ input[type= radio] {
   background-color: #E8E8E8;
   border: none;
   border-radius: 5%;
-}
-
-.last-sentece {
-  color: grey;
-  text-align: center;
 }
 
 button {
@@ -66,4 +66,10 @@ button {
   width: 50%;
   display:block;
   margin: auto;
+}
+
+/* Bottom page (footer) */
+.last-sentece {
+  color: grey;
+  text-align: center;
 }
