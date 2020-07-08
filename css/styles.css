@@ -128,15 +128,19 @@ label[for=comment] {
 [type="checkbox"],
 [type="radio"] {
   vertical-align: middle;
-  margin-left: 5px;
+  margin-left: 15px;
+
 }
 
 label[for=HTML],
 label[for=CSS],
 label[for=Javascript],
 label[for=plain]{
-  margin-right: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* ^ not working */
 }
+
 /* Bottom page */
 button {
   background: #20B2AA	;
