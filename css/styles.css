@@ -25,6 +25,14 @@ body {
 
 }
 
+fieldset {
+  border: none;
+}
+
+legend {
+  margin-top: 20px;
+}
+
 
 /* Line break borders */
 
@@ -44,7 +52,7 @@ body {
   margin-top: 25px;
 }
 
-/* Inside Form */
+/* Contact Information Form */
 input[type= text],
 input[type= email],
 input[type= tel],
@@ -54,30 +62,82 @@ select {
   background-color: #E8E8E8;
   border: none;
   border-radius: 5%;
-  padding: 15px 50px 15px 50px;
+  height: 50px;
+  width: 250px;
+  text-align: left;
+  font-style: normal;
 }
 
-input[placeholder="Required"] {
+input[name=user_name],
+input[name=user_mail] {
+  padding-right: 15px;
+  width: 235px;
+}
+
+input[name=zip] {
+  width: 150px;
+}
+
+label[for=name],
+label[for=mail],
+label[for=phone],
+label[for=address],
+label[for=city],
+label[for=state],
+label[for=zip] {
+  margin-bottom: -5px;
+  margin-top: 15px;
+  display: block;
+}
+
+input[placeholder= Required] {
   text-align: right;
   font-style: italic;
-
-}
-
-option:first {
-  color: #999;
 }
 
 select {
   color: #999;
-  text-align-last: left;
-  text-align: left;
 }
 
-option {
-  text-align: left;
-  text-align-last: left;
+select:focus {
+  color: black;
 }
 
+
+
+
+
+/* Newsletter form */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: 20px;
+
+}
+
+label[for=comment] {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+label[for=HTML],
+label[for=CSS],
+label[for=Javascript],
+label[for=plain]{
+  margin-right: 100px;
+}
+/* Bottom page */
 button {
   background: #20B2AA	;
   border: none;
@@ -89,8 +149,6 @@ button {
   margin: auto;
 }
 
-
-/* Bottom page (footer) */
 .last-sentece {
   color: grey;
   text-align: center;
