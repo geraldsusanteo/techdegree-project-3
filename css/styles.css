@@ -18,20 +18,32 @@
 /* basic styles */
 
 body {
-  /* display: flex;
-  flex-direction: column; */
   width: 80%;
   margin: auto;
 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 fieldset {
   border: none;
 }
 
+.contact-information {
+  display: flex;
+  flex-direction: column;
+}
+
 legend {
   margin-top: 20px;
   font-size: 20px;
+}
+
+p {
+  font-size: 17px;
 }
 
 
@@ -89,8 +101,8 @@ label[for=address],
 label[for=city],
 label[for=state],
 label[for=zip] {
-  margin-bottom: -5px;
-  margin-top: 15px;
+  margin-bottom: -3px;
+  margin-top: 12px;
   display: block;
 }
 
@@ -107,11 +119,8 @@ select:focus {
   color: black;
 }
 
-
-
-
-
 /* Newsletter form */
+
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -121,45 +130,52 @@ select:focus {
 input[type=checkbox],
 input[type=radio] {
   width: 20px;
-
+  margin: 0 10px 0 0;
+  vertical-align: middle;
 }
 
 label[for=comment] {
   margin-top: 40px;
   margin-bottom: 20px;
   width: 500px;
-  ju
-}
-
-[type="checkbox"],
-[type="radio"] {
-  vertical-align: middle;
-  margin-left: 15px;
 
 }
 
-label[for=HTML],
-label[for=CSS],
-label[for=Javascript],
-label[for=plain]{
-  margin-left: 10px;
-  margin-right: 10px;
-  /* ^ not working */
+textarea {
+  margin: 5px 0 10px 0;
 }
 
 /* Bottom page */
+
 button {
   background: #20B2AA	;
   border: none;
   border-radius: 5%;
-  padding: 15px 70px 15px 70px;
+  padding: 20px 150px 20px 150px;
   color: white;
-  width: 50%;
   display:block;
   margin: auto;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .last-sentece {
   color: grey;
   text-align: center;
+}
+
+
+/* media query */
+
+@media (min-width: 768px) {
+
+  input[type= text],
+  input[type= email],
+  input[type= tel],
+  input[type= checkbox],
+  input[type= radio] {
+    flex-grow: 1;
+  }
+
+
 }
