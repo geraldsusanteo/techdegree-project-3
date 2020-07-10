@@ -23,18 +23,8 @@ body {
 
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
 fieldset {
   border: none;
-}
-
-.contact-information {
-  display: flex;
-  flex-direction: column;
 }
 
 legend {
@@ -66,6 +56,15 @@ p {
 }
 
 /* Contact Information Form */
+
+.contact-information {
+  background-color: #FFFFCC;
+}
+
+.title-contact {
+  margin-top: 30px;
+}
+
 input[type= text],
 input[type= email],
 input[type= tel],
@@ -123,8 +122,7 @@ select:focus {
 
 .newsletter {
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row wrap;
 }
 
 input[type=checkbox],
@@ -169,13 +167,53 @@ button {
 
 @media (min-width: 768px) {
 
+
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+}
+
   input[type= text],
   input[type= email],
   input[type= tel],
-  input[type= checkbox],
-  input[type= radio] {
-    flex-grow: 1;
+  select
+ {
+    width: 100%;
+
   }
 
+  input[id=zip] {
+    width: 200px;
+  }
+
+  label[for=name],
+  label[for=mail],
+  label[for=phone],
+  label[for=address],
+  label[for=city],
+  label[for=state],
+  label[for=zip] {
+    display: flex;
+
+    margin-right: 30px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+
+
+.break {
+  display: none;
+}
+
+textarea,
+button {
+  width: 100%;
+}
 
 }

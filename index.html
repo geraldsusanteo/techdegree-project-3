@@ -11,7 +11,7 @@
 
 <div class="introduction">
     <h2>Signup for our newsletter</h2>
-    <p class="intro-text">Get the latest news on how your code is <br> doing right in your inbox</p>
+    <p class="intro-text">Get the latest news on how your code is <br class="break"> doing right in your inbox</p>
     <hr class="first-border">
     <hr class="second-third-border">
 </div>
@@ -21,28 +21,40 @@
 <form action="index.html" method="post">
 <fieldset class="contact-information">
 
-<legend><strong>Contact Information</strong></legend>
+<legend class="title-contact"><strong>Contact Information</strong></legend>
 
-
+<div class="form-group">
 <label for="name">Full Name</label><br>
 <input type="text" id="name" name="user_name" placeholder="Required" required="required">
+</div>
 <br>
 
+<div class="form-group">
 <label for="mail">Email Address</label><br>
 <input type="email" id="mail" name="user_mail" placeholder="Required" required="required">
+</div>
 <br>
 
+<div class="form-group">
 <label for="phone">Phone Number</label><br>
 <input type="tel" id="phone" name="phone_number">
+</div>
 <br>
+
+
+<div class="form-group">
   <label for="address">Street Address</label><br>
   <input type="text" id="address" name="street_address">
-<br>
+</div>
 
+<br>
+<div class="form-group">
   <label for="city">City</label><br>
   <input type="text" id="city" name="user_city">
+</div>
 <br>
 
+<div class="form-group">
   <label for="state">State</label><br>
   <select id="state" name="user_state">
     <option value="">Choose State</option>
@@ -53,10 +65,13 @@
 <option value="hawaii">Hawaii</option>
 <option value="utah">Utah</option>
   </select>
+</div>
   <br>
 
+<div class="form-group">
 <label for="zip">Zip Code</label><br>
 <input id="zip" name="zip" type="text">
+</div>
 </fieldset>
 
 <hr class="second-third-border second-border">
