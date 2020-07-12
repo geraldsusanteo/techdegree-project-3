@@ -196,20 +196,17 @@ button {
   label[for=state],
   label[for=zip] {
     display: flex;
-    margin-right: 30px;
+    width: 20%;
   }
 
   .form-group {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-right: 250px;
   }
 
-  .zip-class {
-    
-  }
 
 .break {
   display: none;
