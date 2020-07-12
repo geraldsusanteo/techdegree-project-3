@@ -184,7 +184,7 @@ button {
   }
 
   input[id=zip] {
-    width: 200px;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -199,7 +199,6 @@ button {
   label[for=state],
   label[for=zip] {
     display: flex;
-
     margin-right: 30px;
   }
 
@@ -209,6 +208,10 @@ button {
     align-items: stretch;
     justify-content: space-between;
     margin-right: 250px;
+  }
+
+  .zip-class {
+    margin-right: 540px;
   }
 
 
