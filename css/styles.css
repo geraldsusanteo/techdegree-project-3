@@ -81,7 +81,6 @@ select {
 
 input[name=user_name],
 input[name=user_mail] {
-  padding-right: 15px;
   width: 235px;
 }
 
@@ -167,8 +166,6 @@ button {
 
 @media (min-width: 768px) {
 
-
-
 .contact-information {
   display: flex;
   flex-direction: column;
@@ -213,9 +210,7 @@ button {
   .zip-class {
     margin-right: 540px;
   }
-
-
-
+  
 .break {
   display: none;
 }
