@@ -177,14 +177,13 @@ button {
   select
  {
     width: 100%;
-    max-width: 450px;
+
   }
 
   input[id=zip] {
     width: 20%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-left: 0px;
+
     /* align-items and justify items not working, problem occurs when item given width:200px; */
   }
 
@@ -203,10 +202,8 @@ button {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: flex-start;
-    margin-right: 250px;
+    justify-content: flex;
   }
-
 
 .break {
   display: none;
