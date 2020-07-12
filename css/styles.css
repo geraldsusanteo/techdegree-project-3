@@ -180,11 +180,15 @@ button {
   select
  {
     width: 100%;
-
+    max-width: 450px;
   }
 
   input[id=zip] {
     width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* align-items and justify items not working, problem occurs when item given width:200px; */
   }
 
   label[for=name],
@@ -203,6 +207,8 @@ button {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    justify-content: space-between;
+    margin-right: 250px;
   }
 
 
