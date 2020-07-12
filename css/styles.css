@@ -181,7 +181,7 @@ button {
   }
 
   input[id=zip] {
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
