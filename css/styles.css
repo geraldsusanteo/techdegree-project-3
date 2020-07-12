@@ -121,7 +121,7 @@ select:focus {
 
 .newsletter {
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
 }
 
 input[type=checkbox],
@@ -176,13 +176,14 @@ button {
   input[type= tel],
   select
  {
-    width: 100%;
+    width: 80%;
 
   }
 
   input[id=zip] {
     width: 20%;
-    margin-left: 0px;
+    padding: 0px;
+    margin: 0px;
 
     /* align-items and justify items not working, problem occurs when item given width:200px; */
   }
@@ -202,7 +203,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: flex;
+    justify-content: flex-start;
   }
 
 .break {
