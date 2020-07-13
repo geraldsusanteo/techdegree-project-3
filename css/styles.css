@@ -177,15 +177,12 @@ button {
   select
  {
     width: 80%;
-
   }
 
   input[id=zip] {
     width: 20%;
     padding: 0px;
     margin: 0px;
-
-    /* align-items and justify items not working, problem occurs when item given width:200px; */
   }
 
   label[for=name],
@@ -214,5 +211,23 @@ textarea,
 button {
   width: 100%;
 }
+
+legend {
+  border: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+legend span {
+  display: block;
+  border-bottom: 2px;
+  margin-top: 20px;
+}
+
+/* fieldset > legend + *{
+    margin-top: 10px;
+
+} */
+
 
 }
