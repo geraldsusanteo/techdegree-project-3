@@ -41,6 +41,13 @@ form {
   max-width: 768px;
   padding: 0 1em;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -82,21 +89,18 @@ select {
   border: none;
   border-radius: 5%;
   height: 50px;
-  width: 250px;
+  width: 95%;;
   font-style: normal;
 }
 
-input[name=user_name],
-input[name=user_mail] {
-  width: 235px;
-}
+
 
 input:required {
   border: 1px solid red;
 }
 
 input[name=zip] {
-  width: 150px;
+  width: 40%;
 }
 
 label[for=name],
@@ -119,17 +123,17 @@ label[for=zip] {
 select {
   color: #999;
 }
+
 input {
+ color: black;
+  background-color: #6sgdrs;
   transition: background-color 1s ease-out;
 }
 input:focus {
   color: blue;
+   background-color: #f4511e;
 }
 
-input:hover {
-  background-color: #f4511e;;
-  color: white;
-}
 
 /* Newsletter form */
 
@@ -175,11 +179,19 @@ button {
   text-align: center;
 }
 
+textarea {
+  justify-content: center;
+  align-content: center;
+}
+
 
 /* media query */
 
 @media (min-width: 768px) {
 
+form {
+  flex-direction: row;
+}
 .contact-information {
   display: flex;
   flex-direction: column;
@@ -238,10 +250,7 @@ legend span {
   margin-top: 20px;
 }
 
-/* fieldset > legend + *{
-    margin-top: 10px;
 
-} */
 
 
 }
