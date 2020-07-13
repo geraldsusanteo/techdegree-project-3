@@ -8,7 +8,7 @@
 
 .introduction {
   text-align: center;
-  flex-wrap: wrap;
+
 }
 .intro-text {
   margin-bottom: 40px;
@@ -18,7 +18,6 @@
 /* basic styles */
 
 body {
-  width: 80%;
   margin: auto;
 
 }
@@ -34,6 +33,13 @@ legend {
 
 p {
   font-size: 17px;
+}
+
+form {
+  width: 99%;
+  max-width: 768px;
+  padding: 0 1em;
+  margin: 0 auto;
 }
 
 
@@ -114,7 +120,7 @@ select {
 }
 
 select:focus {
-  color: black;
+  color: blue;
 }
 
 /* Newsletter form */
