@@ -19,6 +19,7 @@
 
 body {
   margin: auto;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -119,7 +120,7 @@ select {
   color: #999;
 }
 input {
-  transition: background-color 0.5s ease-out;
+  transition: background-color 1s ease-out;
 }
 input:focus {
   color: blue;
