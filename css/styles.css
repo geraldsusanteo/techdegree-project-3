@@ -115,7 +115,6 @@ label[for=state],
 label[for=zip] {
   margin-bottom: -3px;
   margin-top: 12px;
-  display: block;
 }
 
 ::placeholder {
