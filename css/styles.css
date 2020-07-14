@@ -29,12 +29,6 @@ form {
   flex-direction: column;
 }
 
-fieldset {
-  display: flex;
-  flex-direction: column;
-}
-
-
 /* Top section (Introduction) */
 
 .title {
