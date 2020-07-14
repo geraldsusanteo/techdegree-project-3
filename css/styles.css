@@ -89,7 +89,7 @@ select {
   border: none;
   border-radius: 5%;
   height: 50px;
-  width: 95%;;
+  width: 95%;
   font-style: normal;
 }
 
@@ -126,7 +126,7 @@ select {
 
 input {
  color: black;
-  background-color: #6sgdrs;
+  background-color: #E8E8E8;
   transition: background-color 1s ease-out;
 }
 input:focus {
