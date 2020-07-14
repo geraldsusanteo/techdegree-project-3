@@ -45,10 +45,6 @@ form {
   flex-direction: column;
 }
 
-fieldset {
-  display: flex;
-  flex-direction: column;
-}
 
 
 /* Line break borders */
@@ -70,6 +66,7 @@ fieldset {
 }
 
 /* Contact Information Form */
+
 
 .contact-information {
   background-color: #FFFFCC;
@@ -189,6 +186,7 @@ textarea {
 /* media query */
 
 @media (min-width: 768px) {
+
 
   input[type= text],
   input[type= email],
