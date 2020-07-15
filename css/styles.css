@@ -21,7 +21,7 @@ p {
 }
 
 form {
-  width: 99%;
+  width: 95%;
   max-width: 768px;
   padding: 0 1em;
   margin: 0 auto;
@@ -136,7 +136,6 @@ input:focus {
 
 .newsletter {
   display: flex;
-  flex-direction: row;
 }
 
 input[type=checkbox],
