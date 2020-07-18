@@ -32,6 +32,12 @@ form {
   flex-direction: column;
 }
 
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Top section (Introduction) */
 
 .title {
