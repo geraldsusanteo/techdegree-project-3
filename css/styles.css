@@ -58,11 +58,14 @@ form {
   height: 5px;
   background: black;
   margin-bottom: -5px;
+  border-style: none;
 }
 
 .second-third-border {
   height: 2px;
   background: black;
+  border-style: none;
+  margin-bottom: 10px;
 }
 
 .second-border {
@@ -181,7 +184,7 @@ button {
 }
 
 textarea {
-  width: 89%;
+  width: 100%;
   height: 100px;
 }
 
